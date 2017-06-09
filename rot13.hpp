@@ -1,1 +1,5 @@
-std::string rot13(std::wstring message);
+
+namespace cypher
+{
+  std::string rot13(std::wstring message);
+}
