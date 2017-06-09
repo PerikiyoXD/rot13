@@ -4,7 +4,7 @@
 #include <codecvt>
 #include <iomanip>
 
-std::string rot13(std::wstring text_to_decode)
+std::string cypher::rot13(std::wstring text_to_decode)
 {
 	std::wstring_convert<std::codecvt_utf8<wchar_t>> converter;
 	std::string text = converter.to_bytes(text_to_decode);
